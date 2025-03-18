@@ -1,0 +1,53 @@
+/* font Style */
+
+
+/* shared Style */
+
+.display-flex{
+    display: flex;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* nav section style */
+
+.navbar{
+    justify-content: space-between;
+    margin-top: 40px ;
+}
+
+.nav-link{
+      text-decoration: none;
+      list-style: none;
+      gap: 30px;
+      margin-top: 48px;
+
+      color: rgba(0, 0, 0, 1);
+}
+
+.nav-button{
+    margin-top: 45px;
+    
+}
+
+.signin-btn{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    background-color: white;
+    border: none;
+}
+
+.p-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgba(84, 184, 255, 1);
+    color: white;
+    border: none;
+    width: 98px;
+    height: 34px;
+    padding: 5px;
+    text-align: center;
+}
