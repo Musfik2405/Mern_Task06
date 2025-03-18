@@ -565,3 +565,20 @@ body{
     z-index: 1;
     left: 990px;
 }
+
+/* footer style */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-height: 244px;
+    margin-bottom: 1000px;
+}
+
+.more-footer{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.one-footer p{
+  margin-bottom: 30px;
+}
